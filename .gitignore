@@ -1,43 +1,104 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
+# Flutter specific
+*.flutter-plugins
+*.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-registrant
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/Flutter/app.flx
+ios/Flutter/app_framework/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+android/.gradle/
+android/app/app.iml
+android/local.properties
+android/.idea/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/app/build/
+.idea/
 *.iml
 *.ipr
 *.iws
+*.lock
+*.log
+*.swp
+*.hprof
+*.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.rar
+*.zip
+*.7z
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.lzma
+*.zst
+*.lz
+*.sz
+*.lrz
+*.cpio
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.zst
+*.lz
+*.sz
+*.lrz
+*.cpio
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.tar.lz
+*.tar.sz
+*.tar.lrz
+*.tar.z
+*.z
+*.gz
+*.bz2
+*.xz
+*.lzma
+*.zst
+*.lz
+*.sz
+*.lrz
+*.lz4
+*.z4
+*.lzop
+*.lrzip
+*.c
+*.h
+*.o
+*.d
+*.p
+*.t
+
+# JetBrains related
 .idea/
+*.iml
+*.ipr
+*.iws
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code related
+.vscode/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Mac related
+.DS_Store
